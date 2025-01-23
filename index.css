@@ -1,0 +1,124 @@
+html{
+    font-family: Arial;
+    margin:0px;
+}
+.first-name{
+    display: inline-block;
+    border:none;;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all 0.5s;
+    background-color: rgba(128,0,200,0.2)
+}
+.last-name{
+    display: inline-block;
+    margin-right: 15px;
+    border:none;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all 0.5s;
+    background-color: rgba(128,0,200,0.2)
+}
+.first-name:focus{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-color: goldenrod;
+}
+.last-name:focus{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-color: goldenrod;
+}
+.email{
+    display: block;
+    border:none;
+    padding: 10px;
+    margin: 10px;
+    padding-right: 230px;
+    margin-left:15px;
+    border-radius: 15px;
+    transition: all 0.5s;
+    background-color: rgba(128,0,200,0.2)
+}
+.email:focus{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.Date-Of-Birth{
+  display: inline-block;
+  background-color: rgba(128,0,200,0.2);
+  border: none;
+  border-radius: 15px;
+  margin-left: 15px;
+  transition: 0.5s all;
+  padding: 10px;
+}
+.Date-Of-Birth:focus{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.Phone-Number{
+    display: inline-block;
+    background-color: rgba(128,0,200,0.2);
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.5s all;
+    padding-right: 85px;
+}
+.Phone-Number:focus{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.password{
+    display: block;
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: rgba(128,0,200,0.2);
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.5s all;
+    padding-right: 230px;
+}
+.password:focus{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.Confirm-Password{
+    display: block;
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: rgba(128,0,200,0.2);
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.5s all;
+    padding-right: 230px;
+}
+.Confirm-Password:focus{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.title{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.body{
+    margin-left: 20px;
+    font-size: 16px;
+    color: rgba(150,150,150,1);
+}
+.Sign-Up{
+    margin-top: 15px;
+    margin-left: 15px;
+    border: none;
+    color: white;
+    background-color: rgba(128,0,200,1);
+    padding: 15px;
+    font-weight: bolder;
+    border-radius: 15px;
+}
