@@ -2,6 +2,16 @@ html{
     font-family: Arial;
     margin:0px;
 }
+.Box{
+    max-width: fit-content;
+    padding: 50px;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-top: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px rgba(0,0,0, 0.2);
+
+}
 .first-name{
     display: inline-block;
     border:none;;
@@ -119,6 +129,14 @@ html{
     color: white;
     background-color: rgba(128,0,200,1);
     padding: 15px;
+    padding-left: 190px;
+    padding-right: 190px;
     font-weight: bolder;
     border-radius: 15px;
+    transition: all 0.5s;
+}
+.Sign-Up:hover{
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
